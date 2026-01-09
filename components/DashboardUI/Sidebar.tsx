@@ -56,7 +56,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="w-full lg:w-64 bg-white h-screen lg:fixed lg:left-0 lg:top-0 border-r border-gray-200">
+    <aside className="w-full lg:w-64 bg-white md:h-screen hidden md:block lg:fixed lg:left-0 lg:top-0 border-r border-gray-200">
       <div className="p-4 lg:p-6">
         {/* Logo Section */}
         <div className="flex items-center gap-3 mb-8">
